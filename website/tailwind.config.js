@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         suse: ["SUSE", 'sans-serif'],
+      },
+      animation: {
+        'bounce-slow': 'bounce 3s  infinite'
       }
     },
   },
