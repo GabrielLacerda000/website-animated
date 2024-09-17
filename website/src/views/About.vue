@@ -8,9 +8,7 @@ import AboutUs from '../components/AboutUs.vue';
 <template>
     <div>
         <TwoInOne name="Welcome to the about page" :imgsrc="code" visit="/about" btnName="Who are we"/>
-
         <AboutUs />
-
         <Values/>
     </div>
 </template>

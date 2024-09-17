@@ -18,6 +18,7 @@ const menuOpen = () => {
         <Link url="/" text="Home"/>
         <Link url="/about" text="About"/>
         <Link url="/services" text="Services"/>
+        <Link url="/work" text="Work with us"/>
     </nav>
     <div class="text-4xl text-black cursor-pointer md:hidden z-20" @click="menuOpen">
         <i :class="[open ? 'bi bi-x' :'bi bi-list']"></i>
